@@ -1,0 +1,27 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.555);
+    border: 1px solid rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    margin: 0 400px;
+}
+
+.box {
+    background-color: rgba(245, 245, 220, 0.829);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: rgba(128, 128, 128, 0.555);
+}

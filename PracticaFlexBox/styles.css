@@ -1,0 +1,32 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(128, 128, 128, 0.692);
+    height: 930px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.caja {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(194, 29, 194, 0.555);
+    width: 400px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    margin: 15px;
+}
+
+.c3 {
+    flex-grow: 4;
+}

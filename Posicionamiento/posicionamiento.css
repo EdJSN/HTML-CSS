@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+
+.container {
+    width: 450px;
+    height: 530px;
+    border: solid 5px crimson;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.box {
+    background-color: steelblue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    /*padding-top: 42px;*/
+    line-height: 100px; /*alinear eje Y (vertical)*/
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.static {
+    position: static; /*valor por defecto*/
+}
+
+.relative { /*se activan 4 propiedades: top, bottom, left, right*/
+    position: relative;
+    background-color: crimson;
+   /*bottom: 40px;
+    left: 40px;*/
+}
+
+.absolute { /*se sale del flujo. Si no hay un padre con absolute, puede navegar donde quiera. Si hay un ancestro con absolute, solo se puede mover dentro de este*/
+    background-color: purple;
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+}
+
+.fixed {
+    background-color: darkcyan;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
