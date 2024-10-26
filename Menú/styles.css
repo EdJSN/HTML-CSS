@@ -10,7 +10,7 @@ section {
     width: 100vw;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.500);
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 div {
@@ -22,6 +22,15 @@ div {
     text-align: center;
 }
 
-section div:nth-child(1) {
-    align-self: flex-start;
+section div div {
+    background-color: black;
+    color: rgb(49, 49, 153);
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(49, 49, 153);
+        
 }
+
+/*section div:nth-child(1) {
+    align-self: flex-start;
+}*/
