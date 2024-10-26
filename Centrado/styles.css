@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    /*background-color: navy;*/
+    height: 100vh;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+    border: 1px solid maroon;
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}

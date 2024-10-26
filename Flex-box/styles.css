@@ -6,16 +6,18 @@
 
 section {
     width: 1000px;
+    width: 90%;
     height: 800px;
     background-color: #c2c2c2;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
+    /*flex-direction: column;*/
     /*flex-direction: row-reverse;
     flex-direction: column;
     flex-direction: column-reverse;*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /*flex-wrap: no-wrap;
     flex-wrap: wrap-reverse;*/
     /*flex-flow: column-reverse wrap;*/
@@ -36,7 +38,7 @@ section {
     align-content: space-around;
     align-content: space-evenly;
     align-content: stretch;*/
-    gap: 30px; /*unión entre cajas*/
+    /*gap: 30px; /*unión entre cajas*/
 }
 
 section div {
@@ -56,3 +58,26 @@ section div {
 section div:last-child {
     font-size: 60px;
 } */
+
+section div:nth-child(1) {
+    background-color: #992424;
+    /*order: 3;*/
+    /*flex-grow: 1;*/
+    flex: 0 0 400px;
+}
+
+section div:nth-child(2) {
+    background-color: steelblue;
+    /*order: 2;*/
+    /*flex-grow: 4;*/
+    align-self: flex-end;
+}
+
+section div:nth-child(3) {
+    background-color: greenyellow;
+    /*order: 1;*/
+    /*flex-grow: 0;*/
+    /*flex-shrink: 3;*/
+    /*flex-basis: 300px; depende del eje (puede crecer en ancho o alto)*/
+}
+
