@@ -7,8 +7,10 @@
 :root {
     --color_primario: #f6e231;
     --color_secundario: #2a2929;
+    --color_blanco: #c2c2c2;
     --tamaño_fuente:18px;
     --maximo_ancho: 1200px;
+    --alto__nav:70px;
 }
 
 ::selection {
@@ -18,10 +20,20 @@
 
 body {
     font-size: var(--tamaño_fuente);
+    background-color: var(--color_secundario);
+    color: var(--color_blanco);
 }
 
 header {
     background-color: var(--color_primario);
+    /* position: fixed; sirve para que la barra de búsqueda quede fija, es lo mismo que sticky*/
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+section {
+    
 }
 
 .contenedor {
@@ -31,9 +43,13 @@ header {
     overflow: hidden;
 }
 
-.nav {
-    height: 70px;
+.h-100 {
+    height: calc(100vh - var(--alto__nav))
 }
+
+/* .nav {
+    height: 70px;
+} */
 
 .nav__contenedor {
     display: flex;
@@ -42,18 +58,62 @@ header {
 }
 
 .nav__lista {
+    height: var(--alto__nav);
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
 .logo {
-    height: 70px;
-    width: 100px;
+    height: 60px;
+    width: 90px;
 }
 
 .nav__link {
     text-decoration: none;
     color: var(--color_secundario);
     font-weight: bold;
+}
+
+/*-------------------
+------Principal------
+-------------------*/
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgprin {
+    height: 500px;
+    width: 400px;
+    order: 1;
+    flex-basis: 37%;
+}
+.contenedor-textos {
+    order: 0;
+    flex-basis: 45%;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+}
+.parrafo {
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color_primario);
+    color: var(--color_secundario);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 16px 30px;
+    border-radius: 30px;
 }
