@@ -106,6 +106,7 @@ header {
     font-size: 48px;
     font-weight: 700;
 }
+
 .parrafo {
     margin: 20px 0;
     font-weight: 300;
@@ -173,4 +174,31 @@ header {
 
 .card__caracteristica {
     margin-bottom: 25px;
+}
+
+/*-------------------
+------Galeria------
+-------------------*/
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img_item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.altimg {
+    height: 250px;
+    width: 350px;
+    margin-bottom: 30px;  
+}
+
+.textos_galeria {
+    text-align: center;
 }
