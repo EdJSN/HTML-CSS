@@ -134,6 +134,44 @@
             </div>
          </section>
          <!--contacto-->
+         <section id="contacto">
+            <div class="contenedor contacto h-100">
+                <div class="textos_galeria">
+                    <h2 class="titulo">Contáctenos</h2>
+                    <p class="parrafo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, esse!
+                    </p>  
+                </div>
+                <div>
+                    <form action="index.html" method="get" enctype="multipart/form-data">
+                        <div class="form_estilo">
+                            <label for="nombre">Nombre</label><br>
+                            <input type="text" name="nombre" id="nombre" required minlength="3" maxlength="30" autocomplete="off">
+                        </div>
+                        <div class="form_estilo">
+                            <label for="apellidos">Apellidos</label><br>
+                            <input type="text" name="apellidos" id="apellidos" autocomplete="off">
+                        </div>
+                        <div class="form_estilo">
+                            <label for="telefono">Teléfono</label><br>
+                            <input type="text" name="telefono" id="telefono" pattern="\d+" autocomplete="off">
+                        </div>
+                        <div class="form_estilo">
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" id="email" autocomplete="off">
+                        </div>
+                        <div class="form_estilo">
+                            <label for="mensaje">Mensaje</label><br>
+                            <input type="text" name="mensaje" id="mensaje" autocomplete="off">
+                        </div>
+                        <div class="form_estilo">
+                            <input type="submit" value="Enviar datos" class="btn_form">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+         </section>
     </main>
 </body>
 </html>

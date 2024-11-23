@@ -201,4 +201,62 @@ header {
 
 .textos_galeria {
     text-align: center;
+    margin-top: 60px;
+}
+
+
+/*-------------------
+------Contacto------
+-------------------*/
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nombre {
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+#apellidos {
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+#telefono {
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+#email {
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+#mensaje {
+    height: 270px;
+    width: 350px;
+    border-radius: 8px;
+    margin-top: 5px 0;
+}
+
+.btn_form {
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 20px 0;
+    background-color: var(--color_primario);
+    color: var(--color_secundario);
+    font-weight: 700;
 }
