@@ -216,35 +216,35 @@ header {
     align-items: center;
 }
 
-#nombre {
+.nombre {
     height: 40px;
     width: 350px;
     border-radius: 8px;
     margin: 5px 0;
 }
 
-#apellidos {
+.apellidos {
     height: 40px;
     width: 350px;
     border-radius: 8px;
     margin: 5px 0;
 }
 
-#telefono {
+.telefono {
     height: 40px;
     width: 350px;
     border-radius: 8px;
     margin: 5px 0;
 }
 
-#email {
+.email {
     height: 40px;
     width: 350px;
     border-radius: 8px;
     margin: 5px 0;
 }
 
-#mensaje {
+.mensaje {
     height: 270px;
     width: 350px;
     border-radius: 8px;
