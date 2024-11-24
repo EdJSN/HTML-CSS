@@ -37,8 +37,8 @@ body {
 .relative { /*se activan 4 propiedades: top, bottom, left, right*/
     position: relative;
     background-color: crimson;
-   /*bottom: 40px;
-    left: 40px;*/
+   bottom: 40px;
+    left: 40px;
 }
 
 .absolute { /*se sale del flujo. Si no hay un padre con absolute, puede navegar donde quiera. Si hay un ancestro con absolute, solo se puede mover dentro de este*/
